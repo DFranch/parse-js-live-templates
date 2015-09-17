@@ -1,0 +1,6 @@
+var query = new Parse.Query($class$);
+query.find().then(function($obj$){
+  $END$
+}, function(err){
+  console.log(err)
+});

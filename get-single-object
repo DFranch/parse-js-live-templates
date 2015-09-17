@@ -1,0 +1,8 @@
+get: function ($typeId$) {
+  var query = new Parse.Query("$ParseClassName$");
+  query.get($typeId$).then(function($typeVariable$){
+    console.log($typeVariable$)
+  }, function(err){
+    console.log(err)
+  });
+}
