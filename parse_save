@@ -1,0 +1,7 @@
+var $className$ = Parse.Object.extend("$className$");
+var $objName$ = $className$();
+$objName$.save().then(function($objName$){
+	$END$
+}, function(err){
+	console.log(err);
+});
